@@ -1,0 +1,76 @@
+body {
+  max-width: 1440px;
+  margin: 100px auto;
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Inter", sans-serif;
+  font-family: "Outfit", sans-serif;
+  color: hsl(215, 51%, 70%);
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+h3 {
+  display: inline;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+span {
+  margin: 3px;
+}
+
+hr {
+  border: 1px solid hsl(215, 32%, 27%);
+}
+
+.NFT-card-component {
+  max-width: 250px;
+  margin: auto;
+  background-color: hsl(216, 50%, 16%);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 5px 10px 40px hsl(222, 71%, 3%);
+}
+
+.price-time-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  font-size: 15px;
+}
+.price img,
+.time img {
+  height: 13px;
+}
+.price {
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+}
+.time {
+  text-align: right;
+}
+.author-grid {
+  display: flex;
+  align-items: center;
+}
+.author-picture {
+  width: 30px;
+  border-radius: 100%;
+  border: 1px solid white;
+  margin-right: 15px;
+}
+.author-name {
+  color: white;
+}
